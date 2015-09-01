@@ -55,14 +55,44 @@
                                     <constraint firstItem="zPa-tl-txs" firstAttribute="leading" secondItem="wol-Lz-gM9" secondAttribute="leading" constant="5" id="qEC-WJ-BAO"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Erl-2Z-pFZ">
+                                <rect key="frame" x="275" y="125" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="D8M-Pm-Nv9"/>
+                                    <constraint firstAttribute="width" constant="50" id="XHk-Fa-lKy"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csz-Ic-48G">
+                                <rect key="frame" x="275" y="275" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BdP-7p-PPh"/>
+                                    <constraint firstAttribute="width" constant="50" id="SIu-HB-aFa"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CA2-lF-VTw">
+                                <rect key="frame" x="275" y="425" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="7iM-jc-Cho"/>
+                                    <constraint firstAttribute="height" constant="50" id="tkt-fb-y9k"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="gfL-Zg-z1w" secondAttribute="bottom" constant="20" id="1hc-tu-BSb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wol-Lz-gM9" secondAttribute="trailing" constant="20" id="45a-3t-ZcB"/>
+                            <constraint firstAttribute="centerX" secondItem="csz-Ic-48G" secondAttribute="centerX" id="4MK-T3-buu"/>
+                            <constraint firstAttribute="centerY" secondItem="Erl-2Z-pFZ" secondAttribute="centerY" multiplier="2" id="CHR-p1-81E"/>
                             <constraint firstItem="wol-Lz-gM9" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="20" id="Mz7-Wo-xD1"/>
+                            <constraint firstAttribute="centerX" secondItem="Erl-2Z-pFZ" secondAttribute="centerX" id="Pec-Qy-kZa"/>
+                            <constraint firstAttribute="centerY" secondItem="CA2-lF-VTw" secondAttribute="centerY" multiplier="0.666667" id="ZwD-Uz-VgQ"/>
+                            <constraint firstAttribute="centerX" secondItem="CA2-lF-VTw" secondAttribute="centerX" id="db6-ZU-8Ia"/>
                             <constraint firstItem="gfL-Zg-z1w" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.61" constant="-20" id="ggU-U0-0dH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gfL-Zg-z1w" secondAttribute="trailing" constant="20" id="tGM-MH-eXv"/>
+                            <constraint firstAttribute="centerY" secondItem="csz-Ic-48G" secondAttribute="centerY" id="uLK-TL-HVM"/>
                         </constraints>
                     </view>
                 </viewController>
